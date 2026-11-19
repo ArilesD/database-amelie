@@ -20,6 +20,6 @@ git lfs pull
 
 Ouvre `dabase.db` dans DBeaver ou un autre client SQLite. Si tu ne disposes que d’un fichier texte de quelques lignes, vérifie le résultat de `git lfs pull` avant de l’ouvrir.
 
-Pour consulter les données via Flask et voir les graphiques, utilise le [guide de l’application web Ameli](https://github.com/ArilesD/site-amelie). L’application fournit sa propre version de la base dans son archive d’origine.
+Pour consulter les données via Flask et voir les graphiques, utilise le [guide de l’application web Ameli](https://github.com/ArilesD/site-amelie). L’application fournit la base complète sous forme compressée et la prépare automatiquement au lancement.
 
 [Source des données Ameli](https://data.ameli.fr/)
