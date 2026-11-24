@@ -11,7 +11,7 @@ Projet universitaire réalisé en équipe. L’objectif était de structurer des
 
 Installe [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage), puis exécute ces commandes.
 
-```bash
+```powershell
 git lfs install
 git clone https://github.com/ArilesD/database-amelie.git
 cd database-amelie
