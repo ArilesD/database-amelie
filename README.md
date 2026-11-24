@@ -12,22 +12,6 @@ Projet universitaire réalisé en équipe : structuration de données agrégées
 - `dabase.db` : base SQLite d’environ 278 Mo, stockée avec Git LFS.
 - `Rapport.pdf` : cahier des charges et conception de la base.
 
-<details>
-<summary>Télécharger la base seule avec Git LFS</summary>
-
-### Ouvrir la base
-
-Installe [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage), puis exécute ces commandes.
-
-```powershell
-git lfs install
-git clone https://github.com/ArilesD/database-amelie.git
-cd database-amelie
-git lfs pull
-```
-
-Ouvre `dabase.db` dans DBeaver ou un autre client SQLite. Si tu ne disposes que d’un fichier texte de quelques lignes, vérifie le résultat de `git lfs pull` avant de l’ouvrir.
-
-</details>
+Pour récupérer la base seule, [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) est nécessaire. Elle s’ouvre ensuite dans DBeaver ou un autre logiciel compatible SQLite.
 
 [Source des données Ameli](https://data.ameli.fr/)
