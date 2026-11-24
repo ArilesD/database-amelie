@@ -1,13 +1,21 @@
 # Ameli - Base de données SQLite
 
-Projet universitaire réalisé en équipe. L’objectif était de structurer des données agrégées de l’Assurance maladie dans une base relationnelle. Le [rapport du projet](Rapport.pdf) présente le cahier des charges et la conception de la base.
+Projet universitaire réalisé en équipe : structuration de données agrégées de l’Assurance maladie dans une base relationnelle.
+
+## Consulter le projet
+
+- [Lire le rapport de conception](Rapport.pdf).
+- [Ouvrir le dépôt de l’application Ameli](https://github.com/ArilesD/site-amelie) pour voir les graphiques et lancer le projet. L’application fournit la base complète compressée et la prépare automatiquement.
 
 ## Contenu du dépôt
 
-- `dabase.db` contient la base SQLite du projet. Le fichier d’environ 278 Mo est stocké avec Git LFS.
-- `Rapport.pdf` contient le rapport de conception.
+- `dabase.db` : base SQLite d’environ 278 Mo, stockée avec Git LFS.
+- `Rapport.pdf` : cahier des charges et conception de la base.
 
-## Ouvrir la base
+<details>
+<summary>Télécharger la base seule avec Git LFS</summary>
+
+### Ouvrir la base
 
 Installe [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage), puis exécute ces commandes.
 
@@ -20,6 +28,6 @@ git lfs pull
 
 Ouvre `dabase.db` dans DBeaver ou un autre client SQLite. Si tu ne disposes que d’un fichier texte de quelques lignes, vérifie le résultat de `git lfs pull` avant de l’ouvrir.
 
-Pour consulter les données via Flask et voir les graphiques, utilise le [guide de l’application web Ameli](https://github.com/ArilesD/site-amelie). L’application fournit la base complète sous forme compressée et la prépare automatiquement au lancement.
+</details>
 
 [Source des données Ameli](https://data.ameli.fr/)
