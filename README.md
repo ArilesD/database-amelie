@@ -9,9 +9,9 @@ Projet universitaire réalisé en équipe : structuration de données agrégées
 
 ## Contenu du dépôt
 
-- `dabase.db` : base SQLite d’environ 278 Mo, stockée avec Git LFS.
+- `dabase.db` : base SQLite, stockée avec Git LFS.
 - `Rapport.pdf` : cahier des charges et conception de la base.
 
 Pour récupérer la base seule, [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) est nécessaire. Elle s’ouvre ensuite dans DBeaver ou un autre logiciel compatible SQLite.
 
-[Source des données Ameli](https://data.ameli.fr/)
+Données : [Cnam - Data ameli](https://data.ameli.fr/), sous licence [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
